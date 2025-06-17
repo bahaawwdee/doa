@@ -79,6 +79,18 @@
       border-radius: 10px;
       margin-top: 30px;
       display: none;
+      text-align: center;
+    }
+    #contact-dev {
+      margin-top: 20px;
+      padding: 10px 20px;
+      background-color: #00ff88;
+      color: #000;
+      border: none;
+      border-radius: 5px;
+      font-size: 16px;
+      font-weight: bold;
+      cursor: pointer;
     }
   </style>
 </head>
@@ -95,11 +107,11 @@
     <div id="tasks-area"></div>
 
     <div id="final-result">
-      <h2>🔓 تم الوصول إلى الحساب بنجاح!</h2>
-      <p><strong>البريد أو اسم المستخدم:</strong> baha.hacker21</p>
-      <p><strong>كلمة المرور:</strong> Hazem@123x!</p>
-      <p><strong>آخر دخول:</strong> 17 يونيو 2025 - 01:44 من Cairo, Egypt</p>
-      <p><strong>حالة الحساب:</strong> نشط ✅</p>
+      <h2 style="color: #ff4444;">❌ لم يتم اختراق الحساب</h2>
+      <p>نأسف، فشلنا في الوصول إلى الحساب المستهدف.</p>
+      <p>للحصول على مساعدة أو خدمة مخصصة، يرجى مراسلة المطور على تيليجرام:</p>
+      <p><strong>📩 تيليجرام: <a href="https://t.me/s5_dim" style="color: #00ff88;" target="_blank">@s5_dim</a></strong></p>
+      <button id="contact-dev" onclick="window.open('https://t.me/s5_dim', '_blank')">📨 مراسلة المطور</button>
     </div>
   </div>
 
